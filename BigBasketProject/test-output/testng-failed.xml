@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Scripts.beverages">
+        <methods>
+          <include name="addProduct"/>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- Scripts.beverages -->
+      <class name="Scripts.riceAndAtta">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+          <include name="addRiceAndAttaProduct"/>
+        </methods>
+      </class> <!-- Scripts.riceAndAtta -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
